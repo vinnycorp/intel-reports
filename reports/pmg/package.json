@@ -2,9 +2,9 @@
   "name": "auto-reports-pmg",
   "version": "1.0.0",
   "description": "Daily intelligence extraction from 4chan /biz/ Precious Metals General",
-  "main": "scraper.js",
+  "main": "collect.js",
   "scripts": {
-    "report": "node scraper.js"
+    "report": "node collect.js"
   },
   "private": true,
   "license": "UNLICENSED"
