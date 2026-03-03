@@ -13,8 +13,8 @@ intel-reports/
 │   │   ├── package.json
 │   │   ├── TEMPLATE.md             # Report template
 │   │   └── reports/                # Generated reports (.json + .md)
-│   └── pmg/                        # 4chan /biz/ Precious Metals General scraper
-│       ├── collect.js              # Main scraper script
+│   └── pmg/                        # 4chan /biz/ Precious Metals General
+│       ├── collect.js              # Main scraper/collector script
 │       ├── package.json
 │       ├── TEMPLATE.md             # Report template
 │       ├── SIGNAL_DB_PROPOSAL.md   # Signal DB design for future trading bot integration
@@ -25,36 +25,58 @@ intel-reports/
 └── README.md
 ```
 
-## Running Reports
+## Data Sources
 
-### x402
-```bash
-cd reports/x402 && npm install
-node reports/x402/collect.js        # from repo root
+Available data sources across all reports. Each report taps into the sources relevant to its domain.
+
+| Source | Method | Cost | x402 | PMG |
+|--------|--------|------|:----:|:---:|
+| GitHub | Search API | Free | ✅ | |
+| Farcaster | Neynar x402 (USDC/Base) | ~$0.03/mo | ✅ | |
+| X/Twitter | Grok mini via OpenRouter | ~$0.05/mo | ✅ | |
+| Google Alerts | Email digest | Free | ✅ | |
+| 4chan /biz/ | [4chan API](https://github.com/4chan/4chan-API) | Free | | ✅ |
+
+## Architecture
+
+All reports follow the same pipeline: collect raw data from sources, compile via LLM, deliver to Telegram.
+
+```
+Data Sources ──▶ collect.js ──▶ Sonnet 4.6 (compile) ──▶ Telegram delivery
 ```
 
-### PMG
+Each report runs on its own cron schedule (see `cron/` for details).
+
+### Requirements
+
+- **Node.js 18+**
+- **OPENROUTER_API_KEY** — LLM compilation (Sonnet 4.6) and X/Twitter via Grok mini
+- **X402_WALLET_PRIVATE_KEY** — for Neynar x402 micropayments (USDC on Base)
+- **X402_WALLET_ADDRESS** — hot wallet address on Base
+
+> Some reports (e.g. PMG) don't require API keys — their data sources are public. See individual report docs for specifics.
+
+### Running Reports
+
 ```bash
+# x402
+cd reports/x402 && npm install
+node reports/x402/collect.js
+
+# PMG
 cd reports/pmg && npm install
-node reports/pmg/collect.js         # from repo root
+node reports/pmg/collect.js
 ```
 
 ---
 
-## Report Descriptions
+## Reports
 
-### x402 — Protocol Intelligence Report
+### x402 — Protocol Intelligence
 
-Automated daily intelligence report tracking the **x402 protocol** (HTTP 402 Payment Required) ecosystem — developments, community discussions, and adoption signals across multiple data sources.
+Automated daily intelligence tracking the **x402 protocol** (HTTP 402 Payment Required) ecosystem — developments, community discussions, and adoption signals.
 
-**Data Sources:**
-
-| Source | Method | Cost |
-|--------|--------|------|
-| GitHub | Search API | Free |
-| Farcaster | Neynar x402 (USDC/Base) | ~$0.03/mo |
-| X/Twitter | Grok mini via OpenRouter | ~$0.05/mo |
-| Google Alerts | Email digest | Free |
+This report dogfoods x402 itself — Farcaster data is fetched via x402 micropayments on Base (USDC).
 
 **Topics Tracked:**
 
@@ -67,16 +89,7 @@ Automated daily intelligence report tracking the **x402 protocol** (HTTP 402 Pay
 | 💬 Community | Discussions, opinions, debates |
 | 📊 Market Signal | Payment volume, usage metrics, trends |
 
-**Architecture:**
-```
-GitHub API ──┐
-Neynar x402 ─┤──▶ Sonnet 4.6 (compile) ──▶ Telegram delivery
-Grok mini ───┘                                (8AM Bangkok daily)
-```
-
-**x402 Payment Details:** This project dogfoods x402 itself — Farcaster data is fetched via x402 micropayments on Base (USDC).
-
-**Requirements:** Node.js 18+, `OPENROUTER_API_KEY`, `X402_WALLET_PRIVATE_KEY`, `X402_WALLET_ADDRESS`
+**Key Accounts & Projects:** Automatically tracks mentions from Coinbase/Base team, x402 protocol contributors, payment infrastructure builders, and DeFi protocols adopting x402.
 
 ---
 
@@ -85,7 +98,7 @@ Grok mini ───┘                                (8AM Bangkok daily)
 Automated daily intelligence extraction from 4chan's /biz/ **Precious Metals General (/pmg/)** threads.
 
 **How it works:**
-- Scrapes the /biz/ catalog via the [4chan API](https://github.com/4chan/4chan-API) to find active /pmg/ threads
+- Scrapes the /biz/ catalog to find active /pmg/ threads
 - Pulls all posts and classifies them across 11 topic categories
 - Extracts actionable signals for silver futures trading and mining stock research
 - Generates a structured daily report with source-linked highlights
@@ -112,8 +125,6 @@ Automated daily intelligence extraction from 4chan's /biz/ **Precious Metals Gen
 1. Silver futures trading — actionable signals and sentiment
 2. Mining stock research — early detection of undervalued juniors
 3. Content automation — feed for autonomous precious metals news publishing
-
-**Requirements:** Node.js 18+, no API keys needed (4chan API is public)
 
 ---
 
