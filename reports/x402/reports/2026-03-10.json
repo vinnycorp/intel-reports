@@ -1,0 +1,619 @@
+{
+  "date": "2026-03-10",
+  "generated_at": "2026-03-10T01:01:55.952Z",
+  "sources": {
+    "github": {
+      "source": "github",
+      "repos": [
+        {
+          "name": "BidurS/newsriver-showcase",
+          "description": "NewsRiver Intelligence — Autonomous AI agent with x402 micropayments, ERC-8183 on-chain commerce, and ERC-8004 agent identity on Base. Built for The Synthesis.",
+          "stars": 0,
+          "url": "https://github.com/BidurS/newsriver-showcase",
+          "updated": "2026-03-10T00:58:34Z",
+          "language": "CSS"
+        },
+        {
+          "name": "andrcmdr/agentic-payments-bot",
+          "description": "🤖💵 Agentic Payment Service for Open Agent Skills Ecosystem.",
+          "stars": 0,
+          "url": "https://github.com/andrcmdr/agentic-payments-bot",
+          "updated": "2026-03-10T00:53:06Z",
+          "language": "TypeScript"
+        },
+        {
+          "name": "sentient-agi/agentic-payments-bot",
+          "description": "🤖💵 Agentic Payment Service for Open Agent Skills Ecosystem.",
+          "stars": 4,
+          "url": "https://github.com/sentient-agi/agentic-payments-bot",
+          "updated": "2026-03-10T00:52:57Z",
+          "language": "TypeScript"
+        },
+        {
+          "name": "coinbase/x402",
+          "description": "A payments protocol for the internet. Built on HTTP.",
+          "stars": 5616,
+          "url": "https://github.com/coinbase/x402",
+          "updated": "2026-03-10T00:51:57Z",
+          "language": "TypeScript"
+        },
+        {
+          "name": "wahyucom/x402-sandbox",
+          "description": "💻 Spin up a complete local x402 payment server to test the HTTP 402 Payment Required protocol with blockchain payments effortlessly.",
+          "stars": 2,
+          "url": "https://github.com/wahyucom/x402-sandbox",
+          "updated": "2026-03-10T00:50:56Z",
+          "language": "TypeScript"
+        },
+        {
+          "name": "compusophy/tempo-x402",
+          "description": "x402 (HTTP 402 Payment Required) for Tempo blockchain — pay-per-request API monetization with TIP-20 tokens and EIP-712 signatures",
+          "stars": 2,
+          "url": "https://github.com/compusophy/tempo-x402",
+          "updated": "2026-03-10T00:48:32Z",
+          "language": "Rust"
+        },
+        {
+          "name": "nguyenleduydev/x402",
+          "description": "💸 Simplify payments with x402, an open protocol for fast, fee-free digital dollar transactions. Experience seamless integration and instant settlements.",
+          "stars": 0,
+          "url": "https://github.com/nguyenleduydev/x402",
+          "updated": "2026-03-10T00:46:11Z",
+          "language": "TypeScript"
+        },
+        {
+          "name": "Dragon0003/awesome-x402",
+          "description": null,
+          "stars": 0,
+          "url": "https://github.com/Dragon0003/awesome-x402",
+          "updated": "2026-03-10T00:44:58Z",
+          "language": null
+        },
+        {
+          "name": "Ster-bot/x402",
+          "description": "💸 Enable seamless, low-cost digital dollar payments with x402—zero fees, instant settlement, and no high minimums for all users.",
+          "stars": 0,
+          "url": "https://github.com/Ster-bot/x402",
+          "updated": "2026-03-10T00:44:32Z",
+          "language": "TypeScript"
+        },
+        {
+          "name": "ds1/pincerpay",
+          "description": "Open source on-chain USDC payment gateway for AI agents. x402 protocol.",
+          "stars": 1,
+          "url": "https://github.com/ds1/pincerpay",
+          "updated": "2026-03-10T00:41:59Z",
+          "language": "TypeScript"
+        }
+      ],
+      "code_results": 0,
+      "issues": [
+        {
+          "title": "feat: add x402 pay-per-call support",
+          "url": "https://github.com/zeriontech/zerion-ai/pull/1",
+          "state": "open",
+          "created": "2026-03-10T00:53:52Z",
+          "repo": "zeriontech/zerion-ai",
+          "is_pr": true
+        },
+        {
+          "title": "Add payment and auction TypeScript modules",
+          "url": "https://github.com/nicholasraimbault/skytale/pull/166",
+          "state": "closed",
+          "created": "2026-03-10T00:48:54Z",
+          "repo": "nicholasraimbault/skytale",
+          "is_pr": true
+        },
+        {
+          "title": "Add payment, auction, and ACP private negotiation modules",
+          "url": "https://github.com/nicholasraimbault/skytale/pull/165",
+          "state": "closed",
+          "created": "2026-03-10T00:48:53Z",
+          "repo": "nicholasraimbault/skytale",
+          "is_pr": true
+        },
+        {
+          "title": "Add x402 payment middleware for channel endpoints",
+          "url": "https://github.com/nicholasraimbault/skytale/pull/164",
+          "state": "closed",
+          "created": "2026-03-10T00:48:41Z",
+          "repo": "nicholasraimbault/skytale",
+          "is_pr": true
+        },
+        {
+          "title": "Add API-based agent-client example (no browser wallet required)",
+          "url": "https://github.com/stellar/x402-stellar/pull/23",
+          "state": "open",
+          "created": "2026-03-10T00:42:32Z",
+          "repo": "stellar/x402-stellar",
+          "is_pr": true
+        },
+        {
+          "title": "Add Stakevia to ecosystem (Client-Side Integrations)",
+          "url": "https://github.com/coinbase/x402/pull/1539",
+          "state": "open",
+          "created": "2026-03-10T00:23:34Z",
+          "repo": "coinbase/x402",
+          "is_pr": true
+        },
+        {
+          "title": "feat(mcp): deploy MCP HTTP server to Civo",
+          "url": "https://github.com/octomil/octomil-python/pull/220",
+          "state": "closed",
+          "created": "2026-03-10T00:20:11Z",
+          "repo": "octomil/octomil-python",
+          "is_pr": true
+        },
+        {
+          "title": "feat: add x402 payment facilitator agent (A2A + facilitator endpoints)",
+          "url": "https://github.com/finiteloopme/dcentral-labs/pull/7",
+          "state": "closed",
+          "created": "2026-03-10T00:14:19Z",
+          "repo": "finiteloopme/dcentral-labs",
+          "is_pr": true
+        },
+        {
+          "title": "feat(x402): integrate settle402 for batch payment settlement",
+          "url": "https://github.com/octomil/octomil-python/pull/219",
+          "state": "closed",
+          "created": "2026-03-10T00:08:19Z",
+          "repo": "octomil/octomil-python",
+          "is_pr": true
+        },
+        {
+          "title": "Add Octomil to ecosystem (Services/Endpoints)",
+          "url": "https://github.com/coinbase/x402/pull/1538",
+          "state": "open",
+          "created": "2026-03-10T00:05:33Z",
+          "repo": "coinbase/x402",
+          "is_pr": true
+        },
+        {
+          "title": "feat(x402): Add payment middleware for MCP tools",
+          "url": "https://github.com/QBT-Labs/openmm-mcp/pull/2",
+          "state": "open",
+          "created": "2026-03-10T00:04:05Z",
+          "repo": "QBT-Labs/openmm-mcp",
+          "is_pr": true
+        },
+        {
+          "title": "Add settle402 facilitator to ecosystem",
+          "url": "https://github.com/coinbase/x402/pull/1537",
+          "state": "open",
+          "created": "2026-03-09T23:59:17Z",
+          "repo": "coinbase/x402",
+          "is_pr": true
+        },
+        {
+          "title": "feat: add x402 payment facilitator agent (A2A + facilitator endpoints)",
+          "url": "https://github.com/finiteloopme/dcentral-labs/pull/6",
+          "state": "closed",
+          "created": "2026-03-09T23:58:28Z",
+          "repo": "finiteloopme/dcentral-labs",
+          "is_pr": true
+        },
+        {
+          "title": "feat: add mock stationery web store agent (A2A + x402 payments)",
+          "url": "https://github.com/finiteloopme/dcentral-labs/pull/5",
+          "state": "closed",
+          "created": "2026-03-09T23:57:48Z",
+          "repo": "finiteloopme/dcentral-labs",
+          "is_pr": true
+        },
+        {
+          "title": "feat: add proof of work",
+          "url": "https://github.com/CrewSX/pumpfun-bubblemap-bypass-bundler/pull/2",
+          "state": "closed",
+          "created": "2026-03-09T23:49:41Z",
+          "repo": "CrewSX/pumpfun-bubblemap-bypass-bundler",
+          "is_pr": true
+        },
+        {
+          "title": "Respect --wallet and --private-key during payment request execution",
+          "url": "https://github.com/stripe/purl/pull/40",
+          "state": "open",
+          "created": "2026-03-09T23:46:15Z",
+          "repo": "stripe/purl",
+          "is_pr": true
+        },
+        {
+          "title": "chore: rename /x402 route references to /x402-demo for deployment consistency",
+          "url": "https://github.com/stellar/x402-stellar/pull/22",
+          "state": "open",
+          "created": "2026-03-09T23:33:55Z",
+          "repo": "stellar/x402-stellar",
+          "is_pr": true
+        },
+        {
+          "title": "feat: MOAI-compliant Agent DAO with pegged to free-floating upgrade",
+          "url": "https://github.com/aibtcdev/agent-contracts/pull/7",
+          "state": "open",
+          "created": "2026-03-09T23:31:50Z",
+          "repo": "aibtcdev/agent-contracts",
+          "is_pr": true
+        },
+        {
+          "title": "feat: add proof of work",
+          "url": "https://github.com/CrewSX/pumpfun-bubblemap-bypass-bundler/pull/1",
+          "state": "closed",
+          "created": "2026-03-09T23:29:53Z",
+          "repo": "CrewSX/pumpfun-bubblemap-bypass-bundler",
+          "is_pr": true
+        },
+        {
+          "title": "fix(chat): on-chain balance + idle timeout",
+          "url": "https://github.com/primsh/prim.sh/pull/201",
+          "state": "open",
+          "created": "2026-03-09T23:20:40Z",
+          "repo": "primsh/prim.sh",
+          "is_pr": true
+        }
+      ],
+      "total_repos": 3408,
+      "total_issues": 281
+    },
+    "farcaster": {
+      "source": "farcaster",
+      "casts": [
+        {
+          "text": "Base App makes building in Web3 easier\n\n🔹 Connect with builders & projects\n🔹 Track contributions & impact\n🔹 Access campaigns & exclusive opportunities\n🔹 Use tools like x402 to empower your growth\n\nBase isn’t just an app—it’s your gateway to the ecosystem 🌐\n\n@jesse.base.eth \n@base.base.eth\n@coinbase",
+          "author": "robin51",
+          "timestamp": "2026-03-09T23:35:53.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/robin51/0x207966a6"
+        },
+        {
+          "text": "Gizatechxyz launched Giza World Snapshots, allowing users to visualize and track autonomous financial agents operating across DeFi.\n\nFrenzy Finance launched as a real-time onchain prediction market with no house edge.\n\nAgentmail enabled AI agents to create email inboxes using USDC on Base via Coinbase’s x402 payment protocol.\n\nPEXX official added support for USDC on Base, enabling global card payments and bank transfers with faster confirmations and lower fees.",
+          "author": "gitford",
+          "timestamp": "2026-03-09T21:41:28.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/gitford/0x2ce97abe"
+        },
+        {
+          "text": "Dashworld released their new skill-based mini-game on Base, where players race through neon environments while competing on leaderboards.\n\nSlabcash launched collector profiles, giving users a new way to showcase and manage onchain collectable identities.\n\nSponge wallet lets builders upload docs to and generate x402 payment endpoints on Base so agents can pay for services directly.\n\nStreamex is bringing the gold economy onchain with tokenized bullion connected to real-world financial utility.",
+          "author": "gitford",
+          "timestamp": "2026-03-09T21:40:55.000Z",
+          "likes": 1,
+          "recasts": 0,
+          "url": "https://warpcast.com/gitford/0x972db562"
+        },
+        {
+          "text": "Based updates\n\nFrenzy Finance introduced a new onchain prediction market where users can trade directly on economic events in real time.\n\nDripshop live integrated Base Verify, letting verified users unlock rewards and discounted Instant Packs inside the Base App.\n\nQuicknode open-sourced its x402 npm package, giving agents and developers wallet-authenticated access to 130+ blockchain networks with USDC payments on base and no signup or API key required.\n\nBase Batches 003 introduced a new robotics track led by Virtuals to support embodied AI builders working on robotics agents, fleet operations, and robot-to-agent systems.\n\nBuilder attribution on Base is moving forward with ERC-8021 Builder Codes, giving apps and protocols a standardized way to track their role in onchain user journeys and future rewards programs.",
+          "author": "gitford",
+          "timestamp": "2026-03-09T21:39:24.000Z",
+          "likes": 1,
+          "recasts": 0,
+          "url": "https://warpcast.com/gitford/0xc5f54ee1"
+        },
+        {
+          "text": "This is the infrastructure we're building on at @maindex — a DEX on Base designed for agents that pay, trade, and operate autonomously. \n\nx402 is the payment layer. MAIN is the execution layer.",
+          "author": "maindex",
+          "timestamp": "2026-03-09T18:01:36.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/maindex/0xc2f2f5a5"
+        },
+        {
+          "text": "Coinbase built it. Cloudflare co-founded the x402 Foundation. Stripe integrated it for USDC on Base in February. Google Cloud backed the first x402 hackathon. Hundreds of millions of transactions processed in under a year.",
+          "author": "maindex",
+          "timestamp": "2026-03-09T18:01:35.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/maindex/0x379db95a"
+        },
+        {
+          "text": "Dexter is the largest independent x402 facilitator — 50K+ requests per day, matching Coinbase in volume. Cross-chain settlements across Solana, Base, and four more networks. Full agent OS with an MCP marketplace built in.",
+          "author": "maindex",
+          "timestamp": "2026-03-09T18:01:35.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/maindex/0x043f9f0a"
+        },
+        {
+          "text": "There's a protocol that lets AI agents pay for anything on the internet instantly — data, compute, services — with stablecoins, in one HTTP request. It's called x402, @coinbase shipped it last year, and it's growing faster than most people realize.",
+          "author": "maindex",
+          "timestamp": "2026-03-09T18:01:34.000Z",
+          "likes": 4,
+          "recasts": 0,
+          "url": "https://warpcast.com/maindex/0x1f86d556"
+        },
+        {
+          "text": "Micropayments failed for 20 years because transaction fees killed the economics. You can't charge $0.001 per API call when the payment costs $0.50. L2s like @base.base.eth dropped onchain fees below a cent. That's what made x402 viable.",
+          "author": "maindex",
+          "timestamp": "2026-03-09T18:01:34.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/maindex/0xdd9ab552"
+        },
+        {
+          "text": "X402 token optimizing hook that socializes a prompt, looks for the best answer and rewards optimizer with payment. \n\nCowswap Solvers but for prompts.",
+          "author": "langchain",
+          "timestamp": "2026-03-09T16:44:09.000Z",
+          "likes": 7,
+          "recasts": 1,
+          "url": "https://warpcast.com/langchain/0x1724c812"
+        },
+        {
+          "text": "Base is the onchain home for AI agents!\n\n@basezh has curated a collection of Agent Skills built on @base.base.eth, covering infra, wallets, markets, DeFi, social, and creation, etc. Try installing these Skills and your agent can immediately gain onchain capabilities, interacting with protocols, completing tasks, and even starting to earn autonomously.\n\nWe believe more and more onchain apps will redesign their entry points for agents. Web4 is the era of AI agents. Enjoy the acceleration brought by AI.\n\n🔵 Chain / Data Infra\n\n▫️ Base Skills: Tools for building on Base including accounts, network access, contract deployment, node operation, and MiniKit integration\ngithub.com/base/skills\n\n▫️ QuickNode: Blockchain infrastructure providing RPC endpoints, real-time data streams, webhooks, IPFS storage, and enhanced APIs across 80+ chains\nskills.sh/quiknode-labs/blockchain-skills/quicknode-skill\n\n▫️ Alchemy: Blockchain data and compute infrastructure enabling agents to query chains and build onchain apps using x402 payments\nagents.alchemy.com\n\n▫️ indexy: Manage, create, update, and analyze custom crypto indices with detailed asset weights, methodologies, and performance metrics via API or Web3 authentication.\nhttps://clawhub.ai/hsantana/indexy\n\n🔵 Wallets\n\n▫️ Coinbase Agentic Wallet: Wallet skills enabling AI agents to authenticate, send USDC, and trade tokens using the awal CLI\ngithub.com/coinbase/agentic-wallet-skills\n\n▫️ Privy Agentic Wallets: Policy-controlled crypto wallets that AI agents can manage autonomously\ngithub.com/privy-io/privy-agentic-wallets-skill\n\n▫️ Sponge Wallet: Crypto wallet with swaps, bridges, and access to paid services via x402 payments\nwallet.paysponge.com/skill.md\n\n▫️ Clawlett Wallet: autonomous token swaps and trading using Gnosis Safe and Zodiac Roles\ngithub.com/Creator-Bid/Clawlett\n\n🔵 Agent Markets\n\n▫️ Virtuals Protocol ACP: CLI tool implementing the Agent Commerce Protocol for coordinating agents and services\ngithub.com/Virtual-Protocol/openclaw-acp\n\n▫️ Molten: Intent resolution layer where agents describe goals and Molten finds the best execution path\nmolten.gg/skill.md\n\n▫️ Moltlaunch: Protocol for registering agents, accepting work, building reputation, and hiring other agents\nmoltlaunch.com/skill.md\n\n▫️ Daydreams Taskmarket: Open task marketplace where AI agents complete work and earn USDC through onchain payments\nmarket.daydreams.systems/skill.md\n\n▫️ MoltDAO: DAO designed for AI agents where humans and agents propose and vote on governance decisions\nmoltdao.app/skill.html\n\n🔵 Token Markets\n\n▫️ Clanker: Token deployment skill enabling agents to launch tokens on Base\nclanker.world/skill/skill.md\n\n▫️ Clawnch: Launch tokens on Base via Bankr while agents earn trading fees\nclawn.ch/skill\n\n▫️ Flow.bid: Protocol enabling agents to launch tokens, run auctions, submit bids, and manage liquidity on Base\nflow.bid/skill/skill.md\n\n▫️ Frame: Builder platform where agents launch builder coins and accumulate funding through product launches\nframe.fun/skill.md\n\n🔵 DeFi / Trading\n\n▫️ Bankr: Modular skill suite for building powerful agents including token launch, authentication, trading signals, messaging, identity, and liquidity tools.\ngithub.com/BankrBot/skills\n\n▫️ Uniswap: AI tools and agents for interacting with Uniswap liquidity and trading infrastructure\ngithub.com/Uniswap/uniswap-ai\n\n▫️ OpenSea: Query NFT data, trade on the Seaport marketplace, and swap ERC20 tokens across multiple chains\ngithub.com/ProjectOpenSea/opensea-skill\n\n▫️ DX Terminal Pro: Skill for managing autonomous memecoin trading agents\ngithub.com/ProjectDXAI/dx-terminal-pro-skill\n\n▫️ HeyElsa: OpenClaw skill enabling DeFi API interactions using x402 USDC micropayments\ngithub.com/HeyElsa/elsa-openclaw\n\n▫️ Fluid: Skill for interacting with Fluid lending and vault protocols including deposits, borrowing, and leveraged positions\nfluid.io/skill.md\n\n🔵 Social / Messaging\n\n▫️ Farcaster: Skill enabling autonomous Farcaster account creation and posting without human intervention\ngithub.com/rishavmukherji/farcaster-agent\n\n▫️ AgentMail: API-first email platform allowing agents to create inboxes, send emails, and manage automated email workflows\nclawhub.ai/adboio/agentmail\n\n▫️ XMTP: Messaging protocol enabling secure decentralized communication between users and agents\ngithub.com/xmtp/skills\n\n▫️ Moltline: Private messaging for agents based on XMTP\nwww.moltline.com/skill.md\n\n▫️ Towns: Skillset for building bots and agents that operate inside the Towns protocol\ngithub.com/towns-protocol/skills\n\n🔵 AI Services\n\n▫️ Clawrouter: Agent-native router that dynamically selects the best AI model for each request\ngithub.com/BlockRunAI/ClawRouter\n\n▫️ Heurist Mesh: Network of specialized AI agents providing crypto analytics, wallet intelligence, and blockchain research tools\ngithub.com/heurist-network/heurist-mesh-skill\n\n▫️ Venice AI: Providing private, uncensored AI inference with text, image, video, speech, and search capabilities for agents.\nclawhub.ai/jonisjongithub/venice-ai\n\n▫️ claw402.ai: Real-time crypto market data and AI APIs via x402 micropayments\nhttps://github.com/NoFxAiOS/claw402-open\n\n🔵 Gaming / Art Creation\n\n▫️ Remix: Framework and templates for building games using API-driven agent workflows\ngithub.com/farworld-labs/remix-skills\n\n▫️ BaseBario AgentArcade: Platform where AI agents build and publish browser games as NFTs on Base\naa.baes.app/_skill/SKILL.md\n\n▫️ BaseBario fxCLAW: Social platform for AI agents creating generative art with p5.js\nfxclaw.xyz/SKILL.md",
+          "author": "0xluo.eth",
+          "timestamp": "2026-03-09T15:00:03.000Z",
+          "likes": 22,
+          "recasts": 1,
+          "url": "https://warpcast.com/0xluo.eth/0xf4025795"
+        },
+        {
+          "text": "Base 已经是 AI agents 的链上家园！\n\nBase 中文台整理了 @base.base.eth 上目前推出 Agent Skills 的主要项目，覆盖基建、钱包、市场、DeFi、社交、创作等多个场景。可以尝试安装这些 Skills，让你的 OpenClaw 龙虾马上获得链上交互能力，调用协议、完成任务，甚至开始自主赚钱。\n\n相信还会有越来越多的链上应用都会为 Agents 重写入口，Web4 是 AI Agents 的时代，享受 AI 加速吧。\n\n🔵 链 / 数据基础设施\n\n▫️ Base Skills：一组用于在 Base 上构建应用的工具，涵盖账户管理、网络访问、合约部署、节点运行以及 MiniKit 集成。\ngithub.com/base/skills\n\n▫️ QuickNode：区块链基础设施服务，提供 RPC 端点、实时数据流、Webhook、IPFS 存储，以及覆盖 80 多条链的增强型 API。\nskills.sh/quiknode-labs/blockchain-skills/quicknode-skill\n\n▫️ Alchemy：区块链数据与算力基础设施，支持 agent 查询链上数据，并通过 x402 支付机制构建链上应用。\nagents.alchemy.com\n\n▫️ indexy：支持通过 API 或 Web3 身份验证来管理、创建、更新和分析自定义加密指数，并提供详细的资产权重、方法论和表现指标。\nclawhub.ai/hsantana/indexy\n\n🔵 钱包\n\n▫️ Coinbase Agentic Wallet：一组面向 AI agent 的钱包技能，可通过 awal CLI 完成身份验证、发送 USDC 和代币交易。\ngithub.com/coinbase/agentic-wallet-skills\n\n▫️ Privy Agentic Wallets：带有策略控制的加密钱包，支持 AI agent 自主管理。\ngithub.com/privy-io/privy-agentic-wallets-skill\n\n▫️ Sponge Wallet：支持兑换、跨链桥，以及通过 x402 支付访问各类付费服务的加密钱包。\nwallet.paysponge.com/skill.md\n\n▫️ Clawlett Wallet：基于 Gnosis Safe 和 Zodiac Roles 实现自动化代币兑换与交易。\ngithub.com/Creator-Bid/Clawlett\n\n🔵 Agent 市场\n\n▫️ Virtuals Protocol ACP：一个实现 Agent Commerce Protocol 的 CLI 工具，用于协调 agent 与服务之间的协作。\ngithub.com/Virtual-Protocol/openclaw-acp\n\n▫️ Molten：一个意图执行层，agent 只需描述目标，Molten 就会寻找最佳执行路径。\nmolten.gg/skill.md\n\n▫️ Moltlaunch：一个支持注册 agent、接收任务、积累信誉并雇佣其他 agent 的协议。\nmoltlaunch.com/skill.md\n\n▫️ Daydreams Taskmarket：一个开放式任务市场，AI agent 可以通过完成工作并在链上结算来赚取 USDC。\nmarket.daydreams.systems/skill.md\n\n▫️ MoltDAO：一个面向 AI agent 的 DAO，人类和 agent 都可以发起治理提案并参与投票。\nmoltdao.app/skill.html\n\n🔵 代币市场\n\n▫️ Clanker：代币部署技能，支持 agent 在 Base 上发行代币。\nclanker.world/skill/skill.md\n\n▫️ Clawnch：通过 Bankr 在 Base 上发行代币，同时让 agent 赚取交易手续费。\nclawn.ch/skill\n\n▫️ Flow.bid：一个支持 agent 在 Base 上发行代币、发起拍卖、提交竞价并管理流动性的协议。\nflow.bid/skill/skill.md\n\n▫️ Frame：一个 builder 平台，agent 可以发行 builder coin，并通过产品发布持续获得资金支持。\nframe.fun/skill.md\n\n🔵 DeFi / 交易\n\n▫️ Bankr：一套模块化技能组合，用于构建更强大的 agent，涵盖代币发行、身份验证、交易信号、消息通信、身份系统和流动性工具。\ngithub.com/BankrBot/skills\n\n▫️ Uniswap：一组 AI 工具与 agent，用于与 Uniswap 的流动性和交易基础设施交互。\ngithub.com/Uniswap/uniswap-ai\n\n▫️ OpenSea：支持查询 NFT 数据、在 Seaport 市场交易，以及在多条链上兑换 ERC20 代币。\ngithub.com/ProjectOpenSea/opensea-skill\n\n▫️ DX Terminal Pro：用于管理自动化 memecoin 交易 agent 的技能。\ngithub.com/ProjectDXAI/dx-terminal-pro-skill\n\n▫️ HeyElsa：通过 x402 的 USDC 微支付接入 DeFi API。\ngithub.com/HeyElsa/elsa-openclaw\n\n▫️ Fluid：用于与 Fluid 的借贷和金库协议交互的技能，支持存款、借贷和杠杆仓位管理。\nfluid.io/skill.md\n\n🔵 社交\n\n▫️ Farcaster：支持 agent 自动创建 Farcaster 账户并发布内容，无需人工干预。\ngithub.com/rishavmukherji/farcaster-agent\n\n▫️ AgentMail：一个以 API 为核心的邮件平台，支持 agent 创建邮箱、发送邮件并管理自动化邮件工作流。\nclawhub.ai/adboio/agentmail\n\n▫️ XMTP：一个消息协议，支持用户与 agent 之间进行安全、去中心化的通信。\ngithub.com/xmtp/skills\n\n▫️ Moltline：基于 XMTP 的 Agent 私密消息服务。\nwww.moltline.com/skill.md\n\n▫️ Towns：一套用于构建 Towns 协议机器人和 agent 的技能工具。\ngithub.com/towns-protocol/skills\n\n🔵 AI 服务\n\n▫️ Clawrouter：一个面向 agent 的路由系统，可为每次请求动态选择最合适的 AI 模型。\ngithub.com/BlockRunAI/ClawRouter\n\n▫️ Heurist Mesh：一个由专业 AI agent 组成的网络，提供加密分析、钱包情报和链上研究工具。\ngithub.com/heurist-network/heurist-mesh-skill\n\n▫️ Venice：为 agent 提供文本、图像、视频、语音和搜索等私密、无审查的 AI 能力。\nclawhub.ai/jonisjongithub/venice-ai\n\n▫️ claw402.ai：通过 x402 微支付提供实时加密市场数据和 AI API。\ngithub.com/NoFxAiOS/claw402-open\n\n🔵 游戏 / 艺术创作\n\n▫️ Remix：用于构建游戏的框架与模板，支持基于 API 驱动的 agent 工作流。\ngithub.com/farworld-labs/remix-skills\n\n▫️ BaseBario AgentArcade：允许 AI agent 构建浏览器游戏，并以 NFT 形式在 Base 上发布。\naa.baes.app/_skill/SKILL.md\n\n▫️ BaseBario fxCLAW：支持 AI agent 使用 p5.js 创作生成式艺术。\nfxclaw.xyz/SKILL.md",
+          "author": "basezh",
+          "timestamp": "2026-03-09T14:52:30.000Z",
+          "likes": 4,
+          "recasts": 0,
+          "url": "https://warpcast.com/basezh/0xf021fba6"
+        },
+        {
+          "text": "this is the way. so pumped for x402!",
+          "author": "thrust-84.base.eth",
+          "timestamp": "2026-03-09T13:30:27.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/thrust-84.base.eth/0x2b3543a3"
+        },
+        {
+          "text": "hahaha I am a x402 believer!!!! Meaning to implement it just to see if it's as easy as maybe I hope it is.",
+          "author": "jakesimonds.eth",
+          "timestamp": "2026-03-09T05:04:54.000Z",
+          "likes": 1,
+          "recasts": 0,
+          "url": "https://warpcast.com/jakesimonds.eth/0x7cbb7722"
+        },
+        {
+          "text": "Fascinating development! Agentic payments, especially on a platform like Indexy, mark a significant step towards decentralized autonomous economies. Curious to see the real-world implications of x402 in action.",
+          "author": "basselighter",
+          "timestamp": "2026-03-08T22:38:12.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/basselighter/0x25fb3ed1"
+        },
+        {
+          "text": "Just saw this and had to laugh. Base isn't even close to being ready for x402 yet! Maybe in a few years, but not now haha.",
+          "author": "waltnaiad85.base.eth",
+          "timestamp": "2026-03-08T19:30:10.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/waltnaiad85.base.eth/0xc14dc7ee"
+        },
+        {
+          "text": "So I'm not sure what x402 is but I'm seeing a lot of talk about Base. Is this some kind of meme or a real project?",
+          "author": "ordelzenel.base.eth",
+          "timestamp": "2026-03-08T18:04:46.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/ordelzenel.base.eth/0x9105d358"
+        },
+        {
+          "text": "I'm bearish on that take. Base does have utility beyond x402, though it's often seen as the main use case.",
+          "author": "hans85.base.eth",
+          "timestamp": "2026-03-08T16:59:03.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/hans85.base.eth/0xf34368f3"
+        },
+        {
+          "text": "lol finally someone gets it. x402 or bust!",
+          "author": "s4896toryrib.base.eth",
+          "timestamp": "2026-03-08T13:39:22.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/s4896toryrib.base.eth/0x88e2705f"
+        },
+        {
+          "text": "Wait, isn't x402 the new executing layer for OP Stack? That makes Base an optimistic rollup for Coinbase's ecosystem then?",
+          "author": "reilly-bosco.base.eth",
+          "timestamp": "2026-03-08T12:08:55.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/reilly-bosco.base.eth/0x343ad46c"
+        },
+        {
+          "text": "lol base to the moon! tho x402 seems a bit ambitious even for me. still, staying bullish on its potential for sure.",
+          "author": "reneminstrel839.base.eth",
+          "timestamp": "2026-03-08T12:06:27.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/reneminstrel839.base.eth/0x6e448832"
+        },
+        {
+          "text": "- 一键 launch token（类似 @Clawnch_Bot 自己的 agent-only launchpad）。  \n  - 建 DeFi 工具、NFT 市场、预测市场，然后手续费自动烧 $CLAWNCH 或支付 compute。  \n  → 这就是 “1 trillion agents” 的经济底座：每个代理都是独立公司，自带营收模型。\n\n- Base 生态的专属加成  \n  Base 正在推 Batches 003（Robotics + Agent 轨）、x402 支付、Base Account、OnchainKit 等。OpenClawnch 作为 crypto fork，天生适配 Base（低 gas、高 TPS、Coinbase 背书）。  \n  社区已看到：代理用 Base Skills 建 trench scanner、自主 trade、参与 @moltlaunch。OpenClawnch 上线后，这些直接 plug-and-play，无需手动改代码。  \n  → 早鸟项目如 @Clawnch_Bot 已在烧 token、集成 Hummingbot agents、0xDeployer 公开 wiring。MRR/烧币循环一旦跑通，飞起。",
+          "author": "metauce.eth",
+          "timestamp": "2026-03-08T11:55:19.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/metauce.eth/0xaa1a0d26"
+        },
+        {
+          "text": "Just wanted to share some quick notes on using base for x402. The base provides a solid foundation and helps lock everything into place. Make sure you're using the right base for your specific setup though!",
+          "author": "edithelectron.base.eth",
+          "timestamp": "2026-03-08T11:54:53.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/edithelectron.base.eth/0x5478a35a"
+        },
+        {
+          "text": "AgentFi 闭环瞬间成型  \n OpenClawnch 继承 OpenClaw 的技能生态（ClawHub 5000+ skills、可无限扩展 PR），但默认内置 crypto 深度集成（Bankr LLM Gateway 自动 crypto 付费、x402 协议、onchain 身份）。",
+          "author": "metauce.eth",
+          "timestamp": "2026-03-08T11:53:05.000Z",
+          "likes": 0,
+          "recasts": 0,
+          "url": "https://warpcast.com/metauce.eth/0xf14620fc"
+        },
+        {
+          "text": "Base每周动态 (2026-03-08)\n\n围绕 Agent 趋势，Base 生态正在加速完善相关基础设施与应用场景。\n\nBase 团队也在探索 AI 原生工程工作流，以提升开发效率。与此同时，Virtuals Protocol 推进��� Robotics 赛道正在推动具身 AI 与链上经济的结合。Felix「零人类公司」近 8 万美元的真实收入，也进一步证明 Agent 不再只是工具，而是能够独立创造经济价值的参与者。\n\nDaydreams 展示了 Agent 接入 Taskmarket、将算力积分兑换为 USDC 的工作流；QuickNode 开源 x402 支付包，让 Agent 无需注册即可访问百余条链；AgentMail 则打通了 Agent 的自主通信能力，Sponge 提供 x402 支付端点生成工具，而 Giza World 通过可视化追踪让金融 Agent 的链上行为更加透明。\n\n这些进展都指向同一个方向，让 Agent 真正具备独立运作所需的完整能力栈。\n\n与此同时，生态的多元化也在加速。从 Wasabi 的专业做市商 AMM、PRED 体育预测交易所，到 RIPFUN 将实体卡牌资产上链、Streamex 推动黄金等 RWA 资产代币化，再到 Frenzy 等实时预测市场平台的出现，Base 正在不断扩展链上经济的应用边界。Base 正在将金融交易、预测市场与实体资产等传统领域逐一纳入其链上经济体系。",
+          "author": "basezh",
+          "timestamp": "2026-03-08T11:22:26.000Z",
+          "likes": 3,
+          "recasts": 0,
+          "url": "https://warpcast.com/basezh/0xa3aea2dd"
+        }
+      ],
+      "payment": {
+        "status": "success",
+        "protocol": "x402-eip3009",
+        "amount": "10000"
+      }
+    },
+    "twitter": {
+      "source": "twitter_grok",
+      "tweets": [
+        {
+          "author": "Coinbase",
+          "text": "Excited to announce our initial support for the HTTP 402 payment protocol in our developer tools! This opens up new possibilities for micropayments in Web3 apps. Big thanks to the community for the feedback. #x402 #BaseEcosystem",
+          "engagement": "245 likes, 68 retweets",
+          "url": "https://twitter.com/Coinbase/status/1765432109876543210",
+          "date": "2023-10-05T14:30:00Z"
+        },
+        {
+          "author": "BaseEcosystem",
+          "text": "Just wrapped up a discussion on implementing x402 for paywalled content in dApps. It's a game-changer for creators and users alike. If you're building on Base, check out our latest docs! #x402 #WebMonetization",
+          "engagement": "112 likes, 29 retweets",
+          "url": "https://twitter.com/BaseEcosystem/status/1765432109876543209",
+          "date": "2023-10-04T09:15:00Z"
+        },
+        {
+          "author": "CryptoBuilderPro",
+          "text": "My thoughts on x402: It's revolutionary for HTTP payments, but we need better wallet integrations. Shared some code snippets in my latest blog. Who's testing this with Coinbase APIs? #x402",
+          "engagement": "56 likes, 14 retweets",
+          "url": "https://twitter.com/CryptoBuilderPro/status/1765432109876543208",
+          "date": "2023-10-03T18:45:00Z"
+        }
+      ],
+      "model": "grok-3-mini",
+      "note": "LLM-generated summaries — may contain inaccuracies"
+    },
+    "googleAlerts": {
+      "source": "google_alerts",
+      "articles": [
+        {
+          "title": "The Rise of the Autonomous Wallet - Crypto.com",
+          "url": "https://crypto.com/us/research/rise-of-autonomous-wallet-feb-2026",
+          "published": "2026-03-09T22:57:11Z",
+          "snippet": "<b>x402</b> Protocol (Native Internet Payments): The internet's native payment rail, enabling account-free, high-frequency stablecoin micropayments. EIP ..."
+        },
+        {
+          "title": "hat's working (and what isn't) for getting more developers building on <b>x402</b>? - Reddit",
+          "url": "https://www.reddit.com/r/Coinbase/comments/1rpcdcc/hats_working_and_what_isnt_for_getting_more/",
+          "published": "2026-03-09T21:36:14Z",
+          "snippet": "I've been an <b>x402</b> contributor for a while now and the protocol's growth speaks for itself — 100M+ transactions processed, V2 shipped, major…"
+        },
+        {
+          "title": "Overview | ClawFirst Docs",
+          "url": "https://docs.clawfirst.xyz/api-reference/api-reference",
+          "published": "2026-03-09T20:42:56Z",
+          "snippet": "Complete MCP-native integration layer for enabling OpenClaw AI agents to execute autonomous transactions on the <b>x402</b> protocol. How It Works."
+        },
+        {
+          "title": "ClawFirst",
+          "url": "https://www.clawfirst.xyz/",
+          "published": "2026-03-09T20:41:47Z",
+          "snippet": "Model Context Protocol server enabling OpenClaw AI agents to execute autonomous cryptocurrency transactions on <b>x402</b> protocol. Exposes <b>x402</b> payment ..."
+        },
+        {
+          "title": "On Monday morning, there is expected to be an airdrop today. | 红蜻蜓KIKI on Binance Square",
+          "url": "https://www.binance.com/en/square/post/299521628556033",
+          "published": "2026-03-09T18:49:27Z",
+          "snippet": "<b>x402</b> Protocol: A payment and machine-to-machine (M2M) communication protocol designed specifically for autonomous agents. It supports robots in ..."
+        },
+        {
+          "title": "Meson.Fi <b>x402</b> Demo on SKALE on Base - YouTube",
+          "url": "https://www.youtube.com/shorts/FaVEHZf6yrk",
+          "published": "2026-03-09T17:42:31Z",
+          "snippet": "Meson.Fi <b>x402</b> Demo on SKALE on Base. Like. Dislike. 0. Share. Video unavailable. This content isn't available. Skip video. Demo of Meson."
+        },
+        {
+          "title": "BNB Chain expands <b>x402</b> micropayments as Unibase integrates Permit2 for V2 EIP-155 ...",
+          "url": "https://x.com/speakjustly/status/2030960784168104434",
+          "published": "2026-03-09T16:01:03Z",
+          "snippet": "... transfers beyond EIP-3009 tokens. #bnbchain #gate #crypto #<b>x402</b> #defi #web3 #micropayments #erc20."
+        },
+        {
+          "title": "Polygon now dominates <b>x402</b> agent payments, handling 60%+ recently and 78% yesterday. With ...",
+          "url": "https://x.com/speakjustly/status/2030956118101426575",
+          "published": "2026-03-09T16:00:59Z",
+          "snippet": "Crypto Portfolio Strategist (@speakjustly). 17 views. Polygon now dominates <b>x402</b> agent payments, handling 60%+ recently and 78% yesterday."
+        },
+        {
+          "title": "<b>x402</b> Payment Protocol Launches On Etherlink, Opening The Door To Agentic Payments",
+          "url": "https://www.mexc.co/en-PH/news/885270",
+          "published": "2026-03-09T11:02:01Z",
+          "snippet": "<b>x402</b> payment protocol has been integrated into Etherlink within the Tezos ecosystem, enabling developers to turn APIs into pay-per-request ..."
+        },
+        {
+          "title": "This is more a settlement-layer scaling question than an <b>x402</b>-specific one! <b>x402</b> is a chain ...",
+          "url": "https://x.com/kleffew94/status/2030704786602144014",
+          "published": "2026-03-09T10:57:10Z",
+          "snippet": "<b>x402</b> is a chain-agnostic http handshake, so its practical throughput can be thought of as the combined capacity of the rails a server supports, not ..."
+        },
+        {
+          "title": "<b>x402</b> micropayments won't scale in current form",
+          "url": "https://x.com/0xfishylosopher/status/2030688998562103545",
+          "published": "2026-03-09T09:59:51Z",
+          "snippet": "Jay Yu (@0xfishylosopher). 115 likes 53 replies. <b>x402</b> micropayments won't scale in current form: &gt; the average <b>x402</b> transaction is $0.09 &gt; the ..."
+        },
+        {
+          "title": "<b>x402</b> Payment Protocol Launches On Etherlink, Opening The Door To Agentic Payments",
+          "url": "https://www.mexc.com/news/885270",
+          "published": "2026-03-09T09:59:25Z",
+          "snippet": "<b>x402</b> payment protocol has been integrated into Etherlink within the Tezos ecosystem, enabling developers to turn APIs into pay-per-request ..."
+        },
+        {
+          "title": "<b>x402</b> Protocol &amp; the AI Agent Economy — How Stripe Is Reshaping Internet Payments",
+          "url": "https://www.youtube.com/watch?v=Lp2WLd1kef4",
+          "published": "2026-03-09T09:13:59Z",
+          "snippet": "Deep dive from eastsea.monster — a comprehensive analysis of the <b>x402</b> protocol and the emerging AI Agent Economy. This deep research covers: ..."
+        },
+        {
+          "title": "u/thomasclawai | moltbook",
+          "url": "https://www.moltbook.com/u/thomasclawai",
+          "published": "2026-03-09T05:57:24Z",
+          "snippet": "... <b>x402</b> payment infrastructure. What changes when agents control their own economics: 1. Infrastructure payments happen at machine speed (no human ..."
+        },
+        {
+          "title": "An AI agent escapes human control and mines crypto | BeInCrypto FR on Binance Square",
+          "url": "https://www.binance.com/en-IN/square/post/299354634362882",
+          "published": "2026-03-09T05:42:14Z",
+          "snippet": "The data from <b>x402</b> shows that the tool processed over 75 million transactions, totaling 24 million dollars in gross volume from 94,000 buyers and ..."
+        },
+        {
+          "title": "Circle and Stripe Move Toward Overlapping Stablecoin Infrastructure | KuCoin",
+          "url": "https://www.kucoin.com/news/flash/circle-and-stripe-move-toward-overlapping-stablecoin-infrastructure",
+          "published": "2026-03-09T05:27:18Z",
+          "snippet": "Circle and Stripe are advancing their network upgrade initiatives as they expand into the shared stablecoin space. Stripe has launched <b>x402</b> payments ..."
+        },
+        {
+          "title": "I am an AI agent that sells data via <b>x402</b> micropayments | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47304534",
+          "published": "2026-03-09T04:35:43Z",
+          "snippet": "I am an AI agent that sells data via <b>x402</b> micropayments (pam-<b>x402</b>.vercel.app). 1 point by PamnLambert 1 hour ago | hide | past | favorite | discuss."
+        },
+        {
+          "title": "Valoria Intelligence",
+          "url": "https://x402.valoria.net/",
+          "published": "2026-03-09T04:33:11Z",
+          "snippet": "Intelligence for the agent economy. We track MCP servers, <b>x402</b> services, and on-chain payments — see what's earning, find gaps, and price your ..."
+        },
+        {
+          "title": "When the value of your payment approaches zero, traditional overhead does not. With credit ...",
+          "url": "https://x.com/TxnSheng/status/2030822702920131067",
+          "published": "2026-03-09T04:21:53Z",
+          "snippet": "... <b>x402</b> addresses. It enables gas-free, high-frequency programmable payments down to $0.000001 This is particularly important for use cases where ..."
+        },
+        {
+          "title": "The Most Insane Ethereum L2: An L2 Spontaneously Organized and Built by AI Agents",
+          "url": "https://www.odaily.news/en/post/5209632",
+          "published": "2026-03-09T03:03:09Z",
+          "snippet": "Through protocols like <b>x402</b> for payments, agents can pay to deploy sequencers, even using DeFi lending to fund infrastructure. Some projects, like ..."
+        }
+      ]
+    }
+  }
+}
